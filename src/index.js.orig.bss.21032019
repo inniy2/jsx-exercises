@@ -32,20 +32,15 @@ function Author(){
 }
 
 function Title(){
-    // return <div className='title'>The Title</div>
-    return React.createElement("div",{className:'title'},"The Title")
+    return <div className='title'>The Title</div>
 }
 
 function MyThing(){
     return (
-        /* 
         <div className='book'>
             <Title/><Author/><Stats/><NewLineTest/><EmpthyNewLines/><SpacesWithNewLines/>
             <InsertingSpace/>
         </div>
-        */
-        react.createElement("div",{className='book'},<Title/><Author/><Stats/><NewLineTest/><EmpthyNewLines/><SpacesWithNewLines/>
-        <InsertingSpace/>)
     );
 }
 
